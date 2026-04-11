@@ -12,8 +12,10 @@ matriz = np.array([
 #CONVERTER A MATRIZ EM DATAFRAME PANDAS
 
 df = pd.DataFrame(matriz, columns=['A', 'B', 'C'], index=['Linha1', 'Linha2', 'Linha3'])
+df1 = pd.DataFrame(matriz)
 
 print(df)
+print(df1)
 
 #SAÍDA:
 
