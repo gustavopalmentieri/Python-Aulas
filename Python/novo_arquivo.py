@@ -1,0 +1,1 @@
+print("Arquivo criado com Python!")

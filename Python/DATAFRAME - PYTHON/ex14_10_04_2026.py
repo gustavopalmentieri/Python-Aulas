@@ -5,6 +5,7 @@ matriz = [
     [0, 0, 0],
     [0, 0, 0],
     [0, 0, 0]
+    
 ]
 
 soma_pares = 0
@@ -23,10 +24,10 @@ print("-=" * 20)
 
 for l in range(0,3):
     for c in range(0,3):
-        print(f"[{matriz[l],[c]:^5}]", end="")
+        print(f"[{matriz[l][c]:^5}]", end="")
         if matriz[l][c] % 2 == 0:
             soma_pares += matriz[l][c]
-        print()
+    print()
 
 #CALCULO DAS ESTATÍSTICAS
         
